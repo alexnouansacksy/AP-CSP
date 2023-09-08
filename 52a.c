@@ -1,8 +1,9 @@
 // Prog52a
 // Created by alex on 9/7/2023.
+
 #include <stdio.h>
 
-//int areaPerimeter() {
+//    int main() {
 //    int length;
 //    printf("Length:");
 //    scanf("%d", &length);
@@ -19,9 +20,9 @@
 //}
 
 
-// Length:12
-// Width:12
-// area is 144
-// perimeter is 48
-// Process finished with exit code 27
+// Length:143
+// Width:82
+// area is 11726
+// perimeter is 450
+// Process finished with exit code 0
 
