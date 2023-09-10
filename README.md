@@ -18,7 +18,7 @@ ___
 
 <h1>Table of Contents</h1>
 
-- [1. Setting Up](#1-compiling-and-running)
+- [1. Compiling and Running](#1-compiling-and-running)
 - [2. Data Types](#2-data-types)
 - [3. Console I/O](#3-console-io)
 - [4. Arithmetic Operations](#4-arithmetic-operations)
