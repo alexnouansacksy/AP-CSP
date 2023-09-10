@@ -65,11 +65,13 @@ ___
 
 # 1. Compiling and Running
 
+For me the hardest step was actually setting up my C environment, so I'm going to be explaining how to do it step my step
+
 How to actually compile and run C files!
 
-Okay so with CLion, there are actually a couple ways to ryun your programs that are pretty cool.
+Okay so with CLion, there are actually a couple ways to run your programs that are pretty cool.
 
-### 
+### Compiling 
 
 ![terminal](images/terminal.png)
 
