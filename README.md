@@ -84,7 +84,7 @@ GCC is what we use to actually run our code
 
 ### Running code in CLion
 
-If you are running your programs in CLion, all you have to do is hit the 'Run' button in the top right.\
+If you are running your programs in CLion, all you have to do is hit the `Run` button in the top right.\
 ![run](images/run.png)
 
 If you have multiple C source files, follow these steps or you'll have an error. (For example multiple C programs for a Computer Science class).
