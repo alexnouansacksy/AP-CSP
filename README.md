@@ -63,27 +63,39 @@ ___
 
 
 
-# 1. Setting Up
+# 1. Compiling and Running
 
-For me the hardest step was actually setting up my C environment, so I'm going to be explaining how to do it step by step.
+The hardest step in learning C is actually setting it up, so here is a step by step tutorial.
 
-How to actually compile and run C files!
+## Setting Up Your  Environemnt
 
 Okay so with CLion, there are actually a couple ways to run your programs that are pretty cool.
 
-## CLion
+## Compiling and Running Your Code
+
+### Running code in CLion
 
 If you are running your programs in CLion, all you have to do is hit the 'Run' button in the top left.\
 ![run](images/run.png)
 
-However, there are a few steps if you have multiple C soure files, or else you will get an error.
+However, there are a few steps if you have multiple C souce files, or else you will get an error.
 
 
 
-## Using the Terminal in CLion
+### Using the Terminal in CLion/Command Prompt
 
-#### 1. Open the Terminal in CLion
+#### 1a. Open the Terminal in CLion
 ![terminal](images/terminal.png)
+
+#### 1b. Open Command Prompt
+To do this, you just need to hit the Windows Key + R and then type in `cmd` and hit enter.\
+![cmd](images/cmd.png)
+
+Open the location of your Project in File Explorer (Windows Key + E) and then copy the location of the folder.\
+![explorer](images/fileexplorer.png)
+
+Type `cd (FOLDER_LOCATION)` in your command prompt to open the folder.
+![commandprompt](images/commandprompt.png)
 
 #### 2. Run these two commands.
 ```
@@ -94,7 +106,9 @@ gcc (FILE_NAME).c -o (EXE_FILE_NAME)
 **EXE_FILE_NAME:** what you want to name your .exe file that will run the code
 
 `gcc (FILE_Name.c -o (EXE_FILE_NAME)` generates the .exe file, which we need in order to run the code\
-`.\(EXE_FILE_NAME` is how we actually run the code
+`.\(EXE_FILE_NAME` is how we actually run the code (if you are in command prompt, you just need `EXE_FILENAME`)
+
+If you ever need to run this program again, you only need the second command.
 
 
 
