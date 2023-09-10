@@ -1,8 +1,8 @@
-<h1>Handbook on Programming in ?????</h1>
+<h1>Handbook on Programming in C</h1>
 
 **AP Computer Science Principles 2023-2024**
 
-FirstName LastName
+Alex Nouansacksy
 
 <!-- This is a comment (which will not be displayed in the live file);
 replace all "???" with your own text. -->
@@ -65,7 +65,13 @@ ___
 
 # 1. Compiling and Running
 
-???
+How to actually compile and run C files!
+
+Okay so with CLion, there are actually a couple ways to ryun your programs that are pretty cool.
+
+### 
+
+![terminal](images/terminal.png)
 
 
 
@@ -81,8 +87,13 @@ ___
 
 ???
 
-```LANGUAGE_HERE
+```c
+#include <stdio.h>
 
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
 ```
 
 
