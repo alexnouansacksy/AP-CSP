@@ -18,7 +18,7 @@ ___
 
 <h1>Table of Contents</h1>
 
-- [1. Compiling and Running](#1-compiling-and-running)
+- [1. Setting Up](#1-compiling-and-running)
 - [2. Data Types](#2-data-types)
 - [3. Console I/O](#3-console-io)
 - [4. Arithmetic Operations](#4-arithmetic-operations)
@@ -63,17 +63,40 @@ ___
 
 
 
-# 1. Compiling and Running
+# 1. Setting Up
 
-For me the hardest step was actually setting up my C environment, so I'm going to be explaining how to do it step my step
+For me the hardest step was actually setting up my C environment, so I'm going to be explaining how to do it step by step.
 
 How to actually compile and run C files!
 
 Okay so with CLion, there are actually a couple ways to run your programs that are pretty cool.
 
-### Compiling 
+## CLion
 
+If you are running your programs in CLion, all you have to do is hit the 'Run' button in the top left.\
+![run](images/run.png)
+
+However, there are a few steps if you have multiple C soure files, or else you will get an error.
+
+
+
+## Using the Terminal in CLion
+
+#### 1. Open the Terminal in CLion
 ![terminal](images/terminal.png)
+
+#### 2. Run these two commands.
+```
+gcc (FILE_NAME).c -o (EXE_FILE_NAME)
+.\(EXE_FILE_NAME)
+```
+**FILE_NAME:** the name of your C file\
+**EXE_FILE_NAME:** what you want to name your .exe file that will run the code
+
+`gcc (FILE_Name.c -o (EXE_FILE_NAME)` generates the .exe file, which we need in order to run the code\
+`.\(EXE_FILE_NAME` is how we actually run the code
+
+
 
 
 
