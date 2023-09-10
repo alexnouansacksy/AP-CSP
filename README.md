@@ -65,21 +65,39 @@ ___
 
 # 1. Compiling and Running
 
-The hardest step in learning C is actually setting it up, so here is a step by step tutorial.
+The hardest step in learning C is actually setting it up, so here is a step-by-step tutorial.
 
-## Setting Up Your  Environemnt
+## Setting Up Your IDE
 
-Okay so with CLion, there are actually a couple ways to run your programs that are pretty cool.
+I will be showing you how to set up CLion, which is a paid IDE, but you can also use Visual Studio, there are other tutorials for that.
+### Installing CLion
+Go to the CLion [website](https://www.jetbrains.com/clion/download/#section=windows) and download the .exe file. Follow all the steps and launch CLion when setup is finished.
+
+### Installing GCC
+GCC is what we use to actually run our code
+#### 1. Go to [winlibs](https://winlibs.com/#download-release) and install desired GCC version.
+#### 2. Extract the file, and bring the `mingw64` folder into your C: drive.
+#### 3. Go to your CLion settings (Ctrl + Alt + S) and select `gcc.exe` as your C compiler.
+![mingw](images/mingw.png)
 
 ## Compiling and Running Your Code
 
 ### Running code in CLion
 
-If you are running your programs in CLion, all you have to do is hit the 'Run' button in the top left.\
+If you are running your programs in CLion, all you have to do is hit the 'Run' button in the top right.\
 ![run](images/run.png)
 
-However, there are a few steps if you have multiple C souce files, or else you will get an error.
+However, there are a few steps if you have multiple C source files, or else you will get an error. (For example multiple C programs for a Computer Science class).
+#### 1. Open your `CMakeLists.txt` file (this should automatically be made each time you make a new Project in CLion)
+![cmake](images/cmake.png)
 
+#### 2. Create a new configuration for each C program you wish to run
+`add_executable(FILE_NAME CONFIGURATION_NAME)` FILE_NAME is just the name of your C program, and CONFIGURATION_NAME can be anything, but I recommend making it the same as the program.
+![cmakecode](images/cmakecode.png)
+
+
+#### 3. Select the configuration for the program you want to run and hit the `Run` button
+![configurations](images/configurations.png)
 
 
 ### Using the Terminal in CLion/Command Prompt
@@ -88,10 +106,9 @@ However, there are a few steps if you have multiple C souce files, or else you w
 ![terminal](images/terminal.png)
 
 #### 1b. Open Command Prompt
-To do this, you just need to hit the Windows Key + R and then type in `cmd` and hit enter.\
-![cmd](images/cmd.png)
 
-Open the location of your Project in File Explorer (Windows Key + E) and then copy the location of the folder.\
+
+Open your Command Prompt, and then go to  the location of your project in File Explorer (Windows Key + E) and then copy the location of the folder.\
 ![explorer](images/fileexplorer.png)
 
 Type `cd (FOLDER_LOCATION)` in your command prompt to open the folder.
@@ -106,9 +123,14 @@ gcc (FILE_NAME).c -o (EXE_FILE_NAME)
 **EXE_FILE_NAME:** what you want to name your .exe file that will run the code
 
 `gcc (FILE_Name.c -o (EXE_FILE_NAME)` generates the .exe file, which we need in order to run the code\
-`.\(EXE_FILE_NAME` is how we actually run the code (if you are in command prompt, you just need `EXE_FILENAME`)
+`.\(EXE_FILE_NAME` is how we actually run the code\
+If you are in command prompt, you just need `EXE_FILENAME`
 
 If you ever need to run this program again, you only need the second command.
+
+**Note: if you are running the program with the `Run` button, it automatically makes this exe file for you**
+![exe](images/exefile.png)
+
 
 
 
