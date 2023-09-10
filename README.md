@@ -111,18 +111,18 @@ If you have multiple C source files, follow these steps or you'll have an error.
 Open your Command Prompt, and then go to  the location of your project in File Explorer (Windows Key + E) and then copy the location of the folder.\
 ![explorer](images/fileexplorer.png)
 
-Type `cd (FOLDER_LOCATION)` in your command prompt to open the folder.
+Type `cd FOLDER_LOCATION` in your command prompt to open the folder.
 ![commandprompt](images/commandprompt.png)
 
 #### 2. Run these two commands.
 ```
-gcc (FILE_NAME).c -o (EXE_FILE_NAME)
-.\(EXE_FILE_NAME)
+gcc FILE_NAME.c -o EXE_FILE_NAME
+.\EXE_FILE_NAME
 ```
 **FILE_NAME:** the name of your C file\
 **EXE_FILE_NAME:** what you want to name your .exe file that will run the code
 
-`gcc (FILE_Name.c -o (EXE_FILE_NAME)` generates the .exe file, which we need in order to run the code\
+`gcc FILE_Name.c -o EXE_FILE_NAME` generates the .exe file, which we need in order to run the code\
 `.\(EXE_FILE_NAME` is how we actually run the code\
 If you are in command prompt, you just need `EXE_FILENAME`
 
