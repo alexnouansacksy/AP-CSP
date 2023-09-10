@@ -75,9 +75,9 @@ Go to the CLion [website](https://www.jetbrains.com/clion/download/#section=wind
 
 ### Installing GCC
 GCC is what we use to actually run our code
-#### 1. Go to [winlibs](https://winlibs.com/#download-release) and install desired GCC version.
-#### 2. Extract the file, and bring the `mingw64` folder into your C: drive.
-#### 3. Go to your CLion settings (Ctrl + Alt + S) and select `gcc.exe` as your C compiler.
+#### 1. Follow the video [here](https://www.youtube.com/watch?v=k6juv3mIr9o&t=83s&ab_channel=NickWalton) and install desired GCC version.
+
+#### 2. Go to your CLion settings (Ctrl + Alt + S) and select `gcc.exe` as your C compiler.
 ![mingw](images/mingw.png)
 
 ## Compiling and Running Your Code
