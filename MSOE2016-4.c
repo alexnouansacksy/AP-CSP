@@ -3,7 +3,6 @@
 // THIS TOOK ME 2 HOURS WTF
 #include <stdio.h>
 #include <math.h>
-#include <stdbool.h>
 
 int relativePrime(int a, int b) {
     if (a == 0) return b;
