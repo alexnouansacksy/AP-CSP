@@ -1,6 +1,5 @@
 // String Interview Question 12
 // Created by alex on 9/19/2023.
-// DO THIS IN PYTHON BECAUSE WTF
 #include <stdio.h>
 
 int main() {
