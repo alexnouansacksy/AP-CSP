@@ -9,4 +9,5 @@ int main() {
     cout << "Enter your sentence: ";
     getline (cin, sentence);
     cout << "Your sentence is: " << sentence;
+    
 }
