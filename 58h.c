@@ -31,7 +31,7 @@ int main() {
 
 
     printf("The interest earned is $%.2f", interest);
-    printf("The total amount in savings is now $%.2f", total);
+    printf("\nThe total amount in savings is now $%.2f", total);
 }
 
 /*
