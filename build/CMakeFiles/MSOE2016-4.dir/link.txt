@@ -1,0 +1,3 @@
+C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\MSOE2016-4.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\MSOE2016-4.dir/objects.a @CMakeFiles\MSOE2016-4.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\MSOE2016-4.dir/objects.a -Wl,--no-whole-archive -o MSOE2016-4.exe -Wl,--out-implib,libMSOE2016-4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MSOE2016-4.dir\linkLibs.rsp

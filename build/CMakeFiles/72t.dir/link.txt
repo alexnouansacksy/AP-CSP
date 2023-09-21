@@ -1,0 +1,3 @@
+C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\72t.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\72t.dir/objects.a @CMakeFiles\72t.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\72t.dir/objects.a -Wl,--no-whole-archive -o 72t.exe -Wl,--out-implib,lib72t.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\72t.dir\linkLibs.rsp

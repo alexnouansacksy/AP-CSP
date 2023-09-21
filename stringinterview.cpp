@@ -5,6 +5,8 @@
 using namespace std;
 
 int main() {
-    cout << "Hello World!";
-    return 0;
+    string sentence;
+    cout << "Enter your sentence: ";
+    getline (cin, sentence);
+    cout << "Your sentence is: " << sentence;
 }

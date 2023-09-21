@@ -1,0 +1,3 @@
+C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\54b.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\54b.dir/objects.a @CMakeFiles\54b.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\54b.dir/objects.a -Wl,--no-whole-archive -o 54b.exe -Wl,--out-implib,lib54b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\54b.dir\linkLibs.rsp
