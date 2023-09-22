@@ -1,12 +1,14 @@
-<h1>Handbook on Programming in ?????</h1>
+<h1>Handbook on Programming in C and sometimes C++ h1>
 
 **AP Computer Science Principles 2023-2024**
 
-FirstName LastName
+Alex Nouansacksy
 
 <!-- This is a comment (which will not be displayed in the live file);
 replace all "???" with your own text. -->
 
+WHATS UP FOLKS, THIS IS HOW TO SET UP YOUR C AND C++ ENVIRONMENT WOOHOOO
+SO BASICALLY I PROGRAM IN C, BUT IF A PROGRAM REQUIRES ME TO USE STRINGS I SWITCH TO C++
 
 
 
@@ -65,9 +67,7 @@ ___
 
 # 1. Compiling and Running
 
-## WHATS UP FOLKS, THIS IS HOW TO SET UP YOUR C AND C++ ENVIRONMENT WOOHOOO
-## SO BASICALLY I PROGRAM IN C, BUT IF A PROGRAM REQUIRES ME TO USE STRINGS I SWITCH TO C++
-
+???
 
 
 
