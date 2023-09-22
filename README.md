@@ -7,7 +7,7 @@ Alex Nouansacksy
 <!-- This is a comment (which will not be displayed in the live file);
 replace all "???" with your own text. -->
 
-WHATS UP FOLKS, THIS IS HOW TO SET UP YOUR C AND C++ ENVIRONMENT WOOHOOO
+WHATS UP FOLKS, TODAY WE ARE GOING TO BE LEARNING HOW TO PROGRAM IN C AND SOMETIMES C++
 SO BASICALLY I PROGRAM IN C, BUT IF A PROGRAM REQUIRES ME TO USE STRINGS I SWITCH TO C++
 
 
