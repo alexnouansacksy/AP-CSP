@@ -1,3 +1,6 @@
+// Alex Nouansacksy
+// LP 4-1
+// 9/21/2023
 #include <stdio.h>
 
 int main() {
