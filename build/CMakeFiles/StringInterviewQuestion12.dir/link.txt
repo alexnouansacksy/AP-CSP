@@ -1,3 +1,0 @@
-C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\StringInterviewQuestion12.dir/objects.a
-C:\MinGW\bin\ar.exe qc CMakeFiles\StringInterviewQuestion12.dir/objects.a @CMakeFiles\StringInterviewQuestion12.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\StringInterviewQuestion12.dir/objects.a -Wl,--no-whole-archive -o StringInterviewQuestion12.exe -Wl,--out-implib,libStringInterviewQuestion12.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StringInterviewQuestion12.dir\linkLibs.rsp
