@@ -1,6 +1,7 @@
 // MSOE 2016 QUESTION 4
 // Created by alex on 9/18/2023.
 // THIS TOOK ME 2 HOURS WTF
+
 #include <stdio.h>
 #include <math.h>
 
