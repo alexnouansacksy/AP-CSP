@@ -37,8 +37,8 @@ int main() {
 
 /*
 
-PS C:\Users\alexn\Desktop\AP-CSP\AP-CSP> .\stringinterview
-Enter the sentence: wow i love to program in c++!
-c++! in program to love i wow 
+PS C:\Users\alexn\Desktop\AP-CSP> .\stringinterview
+Enter the sentence: man i love to program in c++!
+c++! in program to love i man 
 
 */
