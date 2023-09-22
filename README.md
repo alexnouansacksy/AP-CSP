@@ -1,4 +1,4 @@
-<h1>Handbook on Programming in C and sometimes C++ 
+<h1>Handbook on Programming in C and sometimes C++  </h1>
 
 **AP Computer Science Principles 2023-2024**
 
