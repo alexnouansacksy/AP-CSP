@@ -1,3 +1,6 @@
+// Alex Nouansacksy
+// 115b with While Loops
+// 09/25/2023
 #include <stdio.h>
 
 int main() {
