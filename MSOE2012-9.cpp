@@ -26,26 +26,27 @@ int main() {
 
     for (int i = 0; i < romanNumerals.size(); i++) {
         int current = easyConvert(romanNumerals.at(i));
+        
         if (i + 1 < romanNumerals.size()) {
-        int next = easyConvert(romanNumerals.at(i+1));
-        
-        if (current < next) { 
-            if (i - 1 >= 0) {
-                int prev = easyConvert(romanNumerals.at(i-1));
-                if (prev == current) valid = false;
-            }
-        
-            if (current == next / 10 || current == next / 5 ) {
-                if( current == 1 || current % 10 == 0 || current % 100 == 100){
-                    result += (next - current);
-                    i++;
+            int next = easyConvert(romanNumerals.at(i+1));
+            
+            if (current < next) { 
+                if (i - 1 >= 0) { // there can't be more than 1 smaller number in front of a big number
+                    int prev = easyConvert(romanNumerals.at(i-1));
+                    if (prev == current) valid = false;
                 }
-                else valid = false;
-            } else valid = false;
-        }
-        else 
-            result += current;
-        } 
+            
+                if (current == next / 10 || current == next / 5 ) { // check to see if they are 1/10th or 1/5th of the larger one, which is one of the rules
+                    if( current == 1 || current % 10 == 0 || current % 100 == 100){ // only 1 and powers of 10/100 can be substracted
+                        result += (next - current); // if everything checks out do the subtraction
+                        i++;
+                    }
+                    else valid = false; 
+                } else valid = false;
+            }
+            else // if it is not subtracting, we'll just add of them together
+                result += current;
+        } // if it is just 1 roman numeral, we'll just return the basic value of that
         else 
             result += current;
     }
