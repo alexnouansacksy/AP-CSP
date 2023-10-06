@@ -39,19 +39,19 @@ int main() {
                 if (current == next / 10 || current == next / 5 ) { // check to see if they are 1/10th or 1/5th of the larger one, which is one of the rules
                     if( current == 1 || current % 10 == 0 || current % 100 == 100){ // only 1 and powers of 10/100 can be substracted
                         result += (next - current); // if everything checks out do the subtraction
-                        i++;
+                        i++; // we already got the value of the next number, and then subtracted the current number from it so we can skip it
                     }
-                    else valid = false; 
-                } else valid = false;
+                    else valid = false; // if it doesn't meet the rules we do the math, but just won't print it
+                } else valid = false; // if it doesn't meet the rules we do the math, but just won't print it
             }
             else // if it is not subtracting, we'll just add of them together
                 result += current;
-        } // if it is just 1 roman numeral, we'll just return the basic value of that
+        } // if it is just 1 roman numeral, we'll just return the value of it
         else 
             result += current;
     }
 
-    if (valid) printf("Converted number is: %d", result);
+    if (valid) printf("Converted number is: %d", result); 
     else printf("Invalid Roman Numeral");
     
 }
