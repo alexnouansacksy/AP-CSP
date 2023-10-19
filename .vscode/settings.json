@@ -36,5 +36,6 @@
         "system_error": "cpp",
         "tuple": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
