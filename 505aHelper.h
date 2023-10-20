@@ -7,7 +7,7 @@ int points(int books) {
 }
 
 double getAverage(int points[], int length) {
-    double avg = 10;
+    double avg = 0;
     for (int i = 0; i < length; i++) avg += points[i];
     return avg/length;
 }
