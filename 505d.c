@@ -24,72 +24,40 @@ typedef struct {
 int main() {
     FILE * input;
     input = fopen("C:\\Users\\Alex Nouansacksy\\Desktop\\AP-CSP\\AP-CSP\\data\\prog505d.txt", "r");
-    
     if (input == NULL) printf("ERROR");
 
-
     Record* players =  NULL;
-    int cnt = 0;
     Record temp;
-    
+    int cnt = 0;
     int something = 0;
 
-    while ((something = fscanf(input, "%s %s %d %d %d %d %d %d %d %d %d %d %d %d %d %d",
-     temp.firstName, temp.lastName, &temp.hits1, &temp.bats1, &temp.hits2, &temp.bats2, &temp.hits3, &temp.bats3, &temp.hits4, &temp.bats4,
-                                    &temp.hits5, &temp.bats5, &temp.hits6, &temp.bats6, &temp.hits7, &temp.bats7) != EOF)) {
+    while ((something = fscanf(input, "%s %s %d %d %d %d %d %d %d %d %d %d %d %d %d %d",temp.firstName, temp.lastName, 
+            &temp.hits1, &temp.bats1, &temp.hits2, &temp.bats2, &temp.hits3, &temp.bats3, &temp.hits4, &temp.bats4,
+            &temp.hits5, &temp.bats5, &temp.hits6, &temp.bats6, &temp.hits7, &temp.bats7) != EOF)) {
         players = (Record*) realloc(players, (cnt+1) * sizeof(Record));
         if (players == NULL) fclose(input);
         players[cnt] = temp;
         cnt++;
     }
     fclose(input);
-    int mondayHits = 0;
-    int tuesdayHits = 0;
-    int wednesdayHits = 0;
-    int thursdayHits = 0;
-    int fridayHits = 0;
-    int saturdayHits = 0;
-    int sundayHits = 0;
-
-    int mondayBats = 0;
-    int tuesdayBats = 0;
-    int wednesdayBats = 0;
-    int thursdayBats = 0;
-    int fridayBats = 0;
-    int saturdayBats = 0;
-    int sundayBats = 0;
+  
+    int hits[7] = {0, 0, 0, 0, 0, 0, 0};
+    int bats[7] = {0, 0, 0, 0, 0, 0, 0};
+    
     for (int i = 0; i < cnt; i++) {
+        int playerhits[7] = {players[i].hits1, players[i].hits2, players[i].hits3, players[i].hits4, 
+                            players[i].hits5, players[i].hits6, players[i].hits7}; 
+        int playerbats[7] = {players[i].bats1, players[i].bats2, players[i].bats3, players[i].bats4, 
+                            players[i].bats5, players[i].bats6, players[i].bats7};    
         
         printf("\n%s %s\t", players[i].firstName, players[i].lastName);
 
-        dayAverage(players[i].hits1, players[i].bats1);
-        dayAverage(players[i].hits2, players[i].bats2);
-        dayAverage(players[i].hits3, players[i].bats3);
-        dayAverage(players[i].hits4, players[i].bats4);
-        dayAverage(players[i].hits5, players[i].bats5);
-        dayAverage(players[i].hits6, players[i].bats6);
-        dayAverage(players[i].hits7, players[i].bats7);
-
-        mondayHits += players[i].hits1;
-        tuesdayHits += players[i].hits2;
-        wednesdayHits += players[i].hits3;
-        thursdayHits += players[i].hits4;
-        fridayHits += players[i].hits5;
-        saturdayHits += players[i].hits6;
-        sundayHits += players[i].hits7;
-        
-        mondayBats += players[i].bats1;
-        tuesdayBats += players[i].bats2;
-        wednesdayBats += players[i].bats3;
-        thursdayBats += players[i].bats4;
-        fridayBats += players[i].bats5;
-        saturdayBats += players[i].bats6;
-        sundayBats += players[i].bats7;
-
+        for (int i = 0; i < 7; i++) {
+            dayAverage(playerhits[i], playerbats[i]);
+            hits[i] += playerhits[i];
+            bats[i] += playerbats[i];
+        }
     }
-    
-    int hits[7] = {mondayHits, tuesdayHits, wednesdayHits, thursdayHits, fridayHits, saturdayHits, fridayHits};
-    int bats[7] = {mondayBats, tuesdayBats, wednesdayBats, thursdayBats, fridayBats, saturdayBats, sundayBats};
 
     for (int i = 0; i < 7; i++) {
         if (i == 0) printf("\nMonday\t\t%d\t", hits[i]);
@@ -102,9 +70,9 @@ int main() {
         dayAverage(hits[i], bats[i]);
         printf("\n");
     }
-    
-    int totalHits = mondayHits + tuesdayHits + wednesdayHits + thursdayHits + fridayHits + saturdayHits + sundayHits;
-    printf("Total Hits:\t%d", totalHits);
+    int totalhits = 0;
+    for (int i = 0; i < 7; i++) totalhits += hits[i];
+    printf("Total Hits:\t%d", totalhits);
 
     free(players);    
 }
