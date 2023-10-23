@@ -1,3 +1,6 @@
+// Alex Nouansacksy
+// Prog505a
+// 10/12/2023
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <time.h> 

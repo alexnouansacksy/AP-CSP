@@ -1,3 +1,6 @@
+// Alex Nouansacksy
+// Prog505b
+// 10/19/2023
 #include <stdio.h>
 #include <stdlib.h>
 #include "505bHelper.h"

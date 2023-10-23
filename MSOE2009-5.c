@@ -1,3 +1,6 @@
+// Alex Nouansacksy
+// MSOE 2009 Question 5
+// 10/23/2023
 #include <stdio.h>
 #include <stdbool.h>
 void isPrime(int n) {
