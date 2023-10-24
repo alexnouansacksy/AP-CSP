@@ -23,6 +23,7 @@ double fprime(double x) {
     return fprimex;
 }
 
+
 int main() {
     printf("enter num: ");
     double x;
