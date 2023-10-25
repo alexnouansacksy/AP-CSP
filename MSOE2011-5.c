@@ -21,9 +21,17 @@ int main() {
     scanf("%lf", &x);
     printf("Initial Position f(%lf) = %lf", x, f(x));
 
-    while (abs(f(x)) > 0.001) {
+    while (fabs(f(x)) > 0.001) {
     x = x - f(x) / fprime(x);
     printf("\nRefined zero: f(%lf) = %lf", x, f(x));
   }
 }
 
+/*
+Enter your guess: 4
+Initial Position f(4.000000) = -1.042000
+Refined zero: f(3.562350) = 0.239911
+Refined zero: f(3.642883) = -0.005048
+Refined zero: f(3.641249) = -0.000001
+PS C:\Users\Alex Nouansacksy\Desktop\AP-CSP\AP
+*/
