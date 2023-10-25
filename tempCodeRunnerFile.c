@@ -1,1 +1,0 @@
-C:/Users/Alex Nouansacksy/Desktop/AP-CSP/AP-CSP/data/505a.txt
