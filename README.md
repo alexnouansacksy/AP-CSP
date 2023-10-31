@@ -91,7 +91,7 @@ ___
 
 # 2. Data Types
 ```c
-\/\/ Integers
+// Integers
 ```
 ___
 
