@@ -90,10 +90,35 @@ ___
 
 
 # 2. Data Types
-```c
-// Integers
+```cpp
+// Integers represent whole numbers.
+int number = 0;
+printf("%d", number);
+// Doubles represent decimal numbers.
+double dbl = 1.5;
+printf("lf", dbl);
+// Chars represent any specific character, from 0 to 255.
+char a = 'a';
+printf("%c", a);
+
+
+// Strings (C++) represent a set of words
+// for strings you can use a char array, or you can just change your program to C++;
+#include <stdio.h>
+#include <iostream>
+using namespace std; // make sure you have these three at the top of your program.
+
+string abc = "I love to program in C and sometimes C++!";
+printf("%s", abc);
+
+// Booleans: 
+#include <stdbool.h> // just make sure you have this at the top of your program.
+bool isTrue = true;
+
+if (isTrue) printf("That is true!");
+else printf("That is not true!");
+
 ```
-___
 
 
 
