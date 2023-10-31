@@ -90,21 +90,9 @@ ___
 
 
 # 2. Data Types
-
-
-
-| Data Type  | Size (bytes) | Format | Example |
-|-------|------|
-| int  | 2 | %d  | 1 2 3 |
-| char  | 1 | %d  | a b c 1 2 3 |
-| double  | 8 | %lf  | r1c2 |
-| bool  | 1 | N/A  | true false |
-
-
-
-
-
-
+```c
+\/\/ Integers
+```
 ___
 
 
