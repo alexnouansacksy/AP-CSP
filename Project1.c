@@ -5,6 +5,7 @@
 
 int main() {
     int timeremaining = 15 * 60;
+    printf("Timer Started!\n");
     while (timeremaining != 0) {
         int minutes = timeremaining / 60;
         int seconds = timeremaining - minutes * 60;
@@ -19,4 +20,5 @@ int main() {
         sleep(0.1);
         timeremaining--;
     }
+    printf("\nTimer Ended!");
 }
