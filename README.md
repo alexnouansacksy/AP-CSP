@@ -7,8 +7,10 @@ Alex Nouansacksy
 <!-- This is a comment (which will not be displayed in the live file);
 replace all "???" with your own text. -->
 
-WHATS UP FOLKS, TODAY WE ARE GOING TO BE LEARNING HOW TO PROGRAM IN C AND SOMETIMES C++
-SO BASICALLY I PROGRAM IN C, BUT IF A PROGRAM REQUIRES ME TO USE STRINGS I SWITCH TO C++
+Hello, today we will be learning how to program in C! While C is a very useful language,
+there are some limitations. For example, there are no Strings in C, and instead there 
+are only Character arrays. Because of this, for some of our notes we will be using
+features from C++.
 
 
 
