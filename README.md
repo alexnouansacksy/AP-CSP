@@ -94,9 +94,11 @@ ___
 // Integers represent whole numbers.
 int number = 0;
 printf("%d", number);
+
 // Doubles represent decimal numbers.
 double dbl = 1.5;
 printf("lf", dbl);
+
 // Chars represent any specific character, from 0 to 255.
 char a = 'a';
 printf("%c", a);
