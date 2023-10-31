@@ -63,7 +63,7 @@ ___
 
 Alright so first you want to install GCC which you can do [here](https://www.youtube.com/watch?v=k6juv3mIr9o&t=83s&ab_channel=NickWalton) and install desired GCC version.
 
-After that you go install Visual Studio code.
+After that you go install Visual Studio Code.
 
 After that you go to the extensions tab in your VS code and install "C/C++", "C/C++ Extension Pack", and "Code Runner."
 
