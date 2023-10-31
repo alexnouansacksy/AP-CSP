@@ -94,7 +94,6 @@ ___
 
 
 | Data Type  | Size (bytes) | Format | Example |
-
 |-------|------|
 | int  | 2 | %d  | 1 2 3 |
 | char  | 1 | %d  | a b c 1 2 3 |
