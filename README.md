@@ -69,13 +69,17 @@ ___
 
 # 1. Compiling and Running
 
-INSTALL VSCODE
-INSTALL C/C++ IN VSCODE
-INSTALL CODERUNNER
-INSTALL GITHUB WORKSPACES
-SET UP DA REPO
-EDIT DA CODE RUNNER
+Alright so first you want to install GCC which you can do [here](https://www.youtube.com/watch?v=k6juv3mIr9o&t=83s&ab_channel=NickWalton) and install desired GCC version.
 
+After that you go install Visual Studio code.
+
+After that you go to the extensions tab in your VS code and install "C/C++", "C/C++ Extension Pack", and "Code Runner."
+
+After that you go to your Code Runner settings and turn on Run in Terminal and Save on Run.
+
+After that you go create your "name".c program and change "name" to whatever you want, and then hit the run button.
+
+Now your code compiles and runs!
 
 
 
