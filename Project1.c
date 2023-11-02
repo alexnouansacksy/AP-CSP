@@ -3,5 +3,14 @@
 #include "Project1Helper.h"
 
 int main() {
-    whatToDo();
+    int num = -1;
+    /*while (num != 6) {
+        num = askQuestion();
+        doStuff(num);
+    }*/
+    char* alex;
+    printf("enter text: ");
+    scanf("%s", alex);
+    printf("%s", alex);
+
 }

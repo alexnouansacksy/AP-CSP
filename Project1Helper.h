@@ -4,10 +4,10 @@
 
 
 
-int myTimer() {
-    printf("Timer Started!");
-    int timeremaining = 15 * 60;
-
+int myTimer(int min, int type) {
+    if (type == 0) printf("Timer Started!");
+    else if (type == 1) printf("Rest Started");
+    int timeremaining = min * 60;
     while (timeremaining != 0) {
         int minutes = timeremaining / 60;
         int seconds = timeremaining - minutes * 60;
@@ -22,13 +22,30 @@ int myTimer() {
         sleep(0.1);
         timeremaining--;
     }
-    printf("\nTimer Ended!");
+    printf("\nTimer Ended!\n");
     return 0;
 }
 
-void whatToDo() {
-    printf("What would you like me to do?\n[1] Start Timer");
+int askQuestion() {
     int num;
+    printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+    printf("What would you like me to do?\n");
+    printf("[1] Pomodoro Timer\n");
+    printf("[2] Short Break\n");
+    printf("[3] Long Break\n");
+    printf("[4] Add Task\n");
+    printf("[5] View Tasklist\n");
+    printf("[6] Exit\n");
+    printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+
+
+    printf("Enter Choice: ");
     scanf("%d", &num);
-    if (num == 1) {myTimer();}
+    return num;
+}
+
+void doStuff(int num) {
+    if (num == 1) myTimer(25, 0);
+    if (num == 2) myTimer(5, 1);
+    if (num == 3) myTimer (5, 1);
 }
