@@ -41,6 +41,8 @@ int askQuestion() {
 
     printf("Enter Choice: ");
     scanf("%d", &num);
+    printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+
     return num;
 }
 

@@ -35,7 +35,8 @@
         "string_view": "cpp",
         "system_error": "cpp",
         "tuple": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "project1helper.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
