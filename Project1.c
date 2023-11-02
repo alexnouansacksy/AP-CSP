@@ -5,7 +5,7 @@
 int main() {
     int num = -1;
 
-    char alex[20][200];
+    char alex[20][2000];
     int i=0;
     
 
