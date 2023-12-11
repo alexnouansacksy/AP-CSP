@@ -19,7 +19,7 @@ typedef struct {
 
 int main() {
     FILE * input;
-    input = fopen("C:\\Users\\alexn\\Desktop\\AP-CSP\\data\\prog505b.txt", "r");
+    input = fopen("C:\\Users\\Alex Nouansacksy\\Downloads\\apcsp\\AP-CSP\\data\\prog505b.txt", "r");
     
     if (input == NULL) printf("ERROR");
 

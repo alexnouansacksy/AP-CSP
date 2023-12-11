@@ -13,7 +13,7 @@ typedef struct {
 
 int main() {
     FILE * input;
-    input = fopen("C:\\Users\\alexn\\Desktop\\AP-CSP\\data\\prog505a.dat", "r");
+    input = fopen("C:\\Users\\Alex Nouansacksy\\Downloads\\apcsp\\AP-CSP\\data\\prog505a.dat", "r");
     
     if (input == NULL) printf("ERROR");
 

@@ -26,7 +26,7 @@ typedef struct {
 
 int main() {
     FILE * input;
-    input = fopen("C:\\Users\\Alex Nouansacksy\\Desktop\\AP-CSP\\AP-CSP\\data\\prog505d.txt", "r");
+    input = fopen("C:\\Users\\Alex Nouansacksy\\Downloads\\apcsp\\AP-CSP\\data\\prog505d.txt", "r");
     if (input == NULL) printf("ERROR");
 
     Record* players =  NULL;
