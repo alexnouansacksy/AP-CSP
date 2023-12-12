@@ -41,6 +41,10 @@ public class prog505a {
             out.println();
         }
 
+        for (int i = 0; i < cnt; i++) {
+            out.println(names.get(i) + "\t" + books.get(i) + "\t" + points.get(i));
+        }
+
         keyboard.close();
     }    
 }
