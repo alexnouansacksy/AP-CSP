@@ -2,6 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-        }
+            "type": "java",
+            "name": "prog505a",
+            "request": "launch",
+            "mainClass": "prog505a",
+            "projectName": "AP-CSP_1ef03b9"
+        },
+        {}
     ]
 }
