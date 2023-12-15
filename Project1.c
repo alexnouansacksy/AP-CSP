@@ -8,7 +8,6 @@ int main() {
     char alex[20][2000];
     int i=0;
     
-
     while (num != 6) {
         num = askQuestion();
         if (num == 1 || num == 2 || num == 3 || num == 6) doStuff(num);
