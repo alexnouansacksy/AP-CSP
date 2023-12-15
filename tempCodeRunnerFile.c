@@ -1,1 +1,1 @@
-C:\\Users\\Alex Nouansacksy\\Downloads\\apcsp\\AP-CSP\\data\\
+            scanf("%d", alex[i]);

@@ -5,9 +5,10 @@
 int main() {
     int num = -1;
 
-    char alex[20][2000];
+    char alex[20][200];
     int i=0;
     
+
     while (num != 6) {
         num = askQuestion();
         if (num == 1 || num == 2 || num == 3 || num == 6) doStuff(num);
