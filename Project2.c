@@ -16,7 +16,7 @@ int askQuestion() {
     printf("|   [2] Add Contact                              |\n");
     printf("|   [3] Search Contact                           |\n");
     printf("|   [4] Exit                                     |\n");
-    printf("|________________________________________________|\n");
+    printf("|________________________________________________|\n\n");
 
     printf("Enter Choice: ");
     scanf("%d", &num);
