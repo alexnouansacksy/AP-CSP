@@ -1,5 +1,6 @@
 // Alex Nouansacksy
 // MSOE 2010 #6
+// 3/26/2024
 import static java.lang.System.out;
 import java.util.*;
 public class MSOE2010Prob6 {
