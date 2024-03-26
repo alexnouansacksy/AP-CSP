@@ -1,5 +1,5 @@
 // Alex Nouansacksy
-// MSOE 2010 #6
+// MSOE 2010 Question 6
 // 3/26/2024
 import static java.lang.System.out;
 import java.util.*;
