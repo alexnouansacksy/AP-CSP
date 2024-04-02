@@ -30,11 +30,9 @@ class MSOE2015Prob7 {
             cnt -= tri1;
 
             for (int i : tri) if (i <= cnt) tri2 = i;
-
             cnt -= tri2;
 
             for (int i : tri) if (i <= cnt) tri3 = i;
-
             cnt -= tri3;
 
             tri.remove(tri.size() - 1);
